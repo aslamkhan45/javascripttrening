@@ -2,13 +2,9 @@
 
 -1
 ```
-  let fruits =["apple","banana","orange"];
-
-  if(fruits.includes("orange")){
-    console.log("yes")
-  }else{
-    console.log("no")
-  }
+let fruits = ["apple", "banana", "orange"];
+let arr = fruits.includes("orange");
+console.log(arr);
 ```
 
 -2
